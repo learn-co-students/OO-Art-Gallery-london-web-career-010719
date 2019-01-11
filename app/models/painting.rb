@@ -20,5 +20,4 @@ class Painting
     self.all.inject(0){|sum, painting| sum += painting.price}
   end
 
-  puts "hello"
 end

@@ -7,7 +7,6 @@ class Gallery
   def initialize(name, city)
     @name = name
     @city = city
-
     @@all << self
   end
 
