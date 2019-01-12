@@ -35,6 +35,6 @@ class Artist
   end
 
   def create_painting(title, price, gallery)
-    Painting.new(title, price, gallery, self)
+    new_painting = Painting.new(title, price, self, gallery)
   end
 end

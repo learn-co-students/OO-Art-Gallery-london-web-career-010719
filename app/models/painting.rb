@@ -6,9 +6,11 @@ class Painting
 
   @@all = []
 
-  def initialize(title, price, gallery, artist)
+  def initialize(title, price, artist, gallery)
     @title = title
     @price = price
+    @artist = artist
+    @gallery = gallery
     @@all << self
   end
 
